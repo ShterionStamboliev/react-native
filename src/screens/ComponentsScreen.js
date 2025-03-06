@@ -8,7 +8,6 @@ const ComponentsScreen = () => {
     <View>
       <Text style={styles.textStyle}>Gettings started with React Native!</Text>
       <Text style={styles.secondText}>My name is {name}</Text>
-      {/** object cannot be rendered inside text components e.g: {color: red} or {name: 'John'} */}
     </View>
   );
 };
